@@ -12,11 +12,16 @@ dependencies = [
     "textual",
     "rich"
 ]
+license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 
 [project.scripts]
 banglish-dict = "banglish_dictionary:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["banglish_dictionary*"] # Only include your code
+exclude = ["snap*"]                # Tell it to ignore the snap folder!
