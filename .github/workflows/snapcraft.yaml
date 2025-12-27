@@ -1,0 +1,42 @@
+name: banglish-dictionary
+title: Banglish Dictionary
+base: core22
+version: '1.0.2'
+summary: A TUI-based dictionary for Banglish to English translations
+description: |
+  A powerful, terminal-based dictionary for Banglish to English translations.
+  Built with Textual and Rich.
+  
+  Features:
+  - Instant Search: Type a Banglish word to get the English meaning
+  - Themed Browsing: View all 900+ words in a beautiful, color-coded list
+  - Add Words: Easily add new words to your local dictionary
+  - Persistent: Your custom words are saved locally
+
+grade: stable
+confinement: strict
+
+apps:
+  banglish-dictionary:
+    command: bin/banglish-dict
+    plugs:
+      - home
+      - network
+    environment:
+      PYTHONPATH: $SNAP/lib/python3.10/site-packages:$PYTHONPATH
+      LC_ALL: C.UTF-8
+      LANG: C.UTF-8
+
+parts:
+  banglish-dictionary:
+    plugin: python
+    source: .
+    python-packages:
+      - textual
+      - rich
+    stage-packages:
+      - python3-pip
+    override-build: |
+      craftctl default
+      # Install the package
+      pip install --prefix=$CRAFT_PART_INSTALL .

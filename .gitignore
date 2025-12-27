@@ -20,3 +20,13 @@ ENV/
 
 # Local data (if we want to keep the dictionary user-specific, but usually we want to commit the base dictionary)
 # dictionary_data.json 
+
+# Snap build artifacts
+*.snap
+parts/
+prime/
+stage/
+snap/.snapcraft/
+
+# Personal build guides
+SNAP_BUILD_GUIDE.md

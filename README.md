@@ -7,7 +7,7 @@ Built with [Textual](https://textual.textualize.io/) and [Rich](https://github.c
 - 🔎 **Instant Search**: Type a Banglish word to get the English meaning.
 - 🎨 **Themed Browsing**: View all 900+ words in a beautiful, color-coded list (Nature=Green, Love=Red, etc.).
 - ➕ **Add Words**: Easily add new words to your local dictionary if they aren't found.
-- 💾 **Persistent**: Your custom words are saved forever.
+- 💾 **Persistent**: Your custom words are saved (Untill you Update the installation, but you can keep the data and restore it).
 
 ## Changelog 1.0.2
 
@@ -15,15 +15,15 @@ Built with [Textual](https://textual.textualize.io/) and [Rich](https://github.c
 
 ## Installation
 
-pip:
+pip(For Dev.):
 ```bash
 pip install banglish-dictionary-tui
 ```
-or via pipx:
+or via pipx(Reccomended for std. use):
 ```bash
 pipx install banglish-dictionary-tui
 ```
-or via UV:
+or via UV(Fastest):
 ```bash
 uv add banglish-dictionary-tui
 ```
@@ -37,13 +37,13 @@ banglish-dict
 ```
 
 ## Controls
+- **"S"** to focus search tab
 - **Type** to search.
-- Click **"Browse All"** tab to see the full list.
+- Click **"Browse All"** tab or press **"B"** to see the full list.
 - **Enter** to search or add a word.
 - **Ctrl+C** or click **Quit** to exit.
 
-# Creator
-
-Made by 'Mahir29Flame' 💝
-
-Please star the repo if you find it useful :)
+## **Author**
+Made with 💝 by [Mahir29Flame](https://github.com/Mahir29Flame)\
+Please ⭐ the repo if you find it useful :)\
+[Repo](https://github.com/Mahir29Flame/) (If you are in PyPI or SnapStore)
