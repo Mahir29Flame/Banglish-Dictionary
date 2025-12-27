@@ -9,10 +9,23 @@ Built with [Textual](https://textual.textualize.io/) and [Rich](https://github.c
 - ➕ **Add Words**: Easily add new words to your local dictionary if they aren't found.
 - 💾 **Persistent**: Your custom words are saved forever.
 
+## Changelog 1.0.2
+
+- Fixed a wrong script issue
+
 ## Installation
 
+pip:
 ```bash
 pip install banglish-dictionary-tui
+```
+or via pipx:
+```bash
+pipx install banglish-dictionary-tui
+```
+or via UV:
+```bash
+uv add banglish-dictionary-tui
 ```
 
 ## Usage
@@ -28,3 +41,9 @@ banglish-dict
 - Click **"Browse All"** tab to see the full list.
 - **Enter** to search or add a word.
 - **Ctrl+C** or click **Quit** to exit.
+
+# Creator
+
+Made by 'Mahir29Flame' 💝
+
+Please star the repo if you find it useful :)
