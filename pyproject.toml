@@ -8,6 +8,9 @@ version = "1.0.1"
 description = "A TUI-based dictionary for Banglish to English translations."
 readme = "README.md"
 requires-python = ">=3.8"
+authors = [
+    { name = "NJ Mahir", email = "njprograms29@gmail.com" },
+]
 dependencies = [
     "textual",
     "rich"
