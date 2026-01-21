@@ -1,6 +1,7 @@
 # Banglish Dictionary TUI
-
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/banglish-dictionary-tui?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/banglish-dictionary-tui)\
 A powerful, terminal-based dictionary for **Banglish to English** translations. 
+
 Built with [Textual](https://textual.textualize.io/) and [Rich](https://github.com/Textualize/rich).
 
 ## Features
